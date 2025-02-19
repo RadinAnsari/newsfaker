@@ -10,12 +10,14 @@ This is a fun and simple **Fake News npm package** . It generates random fake ne
 
 ## Usage
 
-Follow these steps to get the Fake News 
+First use under command and like this example use it . 
+```bash
+npm i fakernews
+```
 
 ```bash
-
-// Example usage 
-
 const {generateMultipleFakeNews,generateFakeNews} = require('fakernews');
 console.log(generateFakeNews());
 console.log(generateMultipleFakeNews(10));
+
+```
