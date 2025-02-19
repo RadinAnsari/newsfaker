@@ -1,6 +1,6 @@
 # Fake News Generator
 
-This is a fun and simple **Fake News Generator** built using Node.js. It generates random fake news headlines, including categories, sources, and dates. This project is for educational and entertainment purposes only, and should not be used for any malicious activities.
+This is a fun and simple **Fake News npm package** . It generates random fake news headlines, including categories, sources, and dates. This project is for educational and entertainment purposes only, and should not be used for any malicious activities.
 
 ## Features
 
@@ -8,12 +8,14 @@ This is a fun and simple **Fake News Generator** built using Node.js. It generat
 - Simulate different news categories like politics, technology, sports, and more
 - Fake news sources and dates are generated using the Faker.js library
 
-## Installation
+## Usage
 
-Follow these steps to get the Fake News Generator up and running:
-
-### 1. Clone the repository
+Follow these steps to get the Fake News 
 
 ```bash
-git clone https://github.com/RadinAnsari/newsfaker.git
-cd newsfaker
+
+// Example usage 
+
+const {generateMultipleFakeNews,generateFakeNews} = require('fakernews');
+console.log(generateFakeNews());
+console.log(generateMultipleFakeNews(10));
